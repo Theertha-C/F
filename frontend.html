@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+
+    </head>
+    <style>
+    
+.frst-section{
+  display: flex;
+  align-items:center ;
+  min-height: 100vh;
+  background: url("orgninal\ model.webp") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.frst-section .content{
+  margin-left: 30px;
+  max-width: 50rem;
+  
+}
+.frst-section .content h3{
+  margin-left: 0px;
+  font-size: 2rem;
+  color: black;
+}
+.frst-section .content h2{
+  margin-left: 0px;
+  font-size: 3rem;
+  color: black;
+}
+.frst-section .content .span{
+  margin-left: 50px;
+  font-size: 5rem;
+  color: var(--pink);
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+.frst-section .content .span{
+  margin-left: 50px;
+  font-size: 5rem;
+  color: black;
+  padding: 1rem 0;
+  line-height: 1.5;
+}   
+.second-section{
+  display: flex;
+  align-items:center ;
+  min-height: 100vh;
+  background: url("lens2.avif") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.second-section .content1{
+  margin-left: 30px;
+  max-width: 50rem;
+  
+}
+.second-section .content1 h3{
+  margin-left: 0px;
+  font-size: 2rem;
+  color: black;
+}
+.second-section .content1 h2{
+  margin-left: 0px;
+  font-size: 3rem;
+  color: rgb(255, 254, 254);
+}
+.second-section .content1 .span{
+  margin-left: 50px;
+  font-size: 5rem;
+  color: black;
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+.second-section .content1 .span{
+  margin-left: 50px;
+  font-size: 5rem;
+  color: rgb(0, 0, 0);
+  padding: 1rem 0;
+  line-height: 1.5;
+}  
+.container .card-body {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+  
+}
+.image-section{
+  display: flex;
+  align-items:center ;
+  min-height: 100vh;
+  background: url("armaniNew.jpg") ;
+  background-size: cover;
+  background-position: center;
+}
+.image-section .content3{
+  margin-left: 130px;
+  max-width: 50rem;
+  
+}
+.image-section .content3 h4{
+  margin-left: 0px;
+  font-size: 1rem;
+  color: rgb(255, 253, 253);
+}
+.image-section .content3 h2{
+  margin-left: 0px;
+  font-size: 3rem;
+  color: rgb(250, 250, 250);
+}
+.image-section .content3 .span{
+  margin-left: 50px;
+  font-size: 5rem;
+  color: white;
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+.image-section .content3 .span{
+  margin-left: 50px;
+  font-size: 5rem;
+  color: white;
+  padding: 1rem 0;
+  line-height: 1.5;
+}   
+
+.button1-section{
+  background-color: #efc578;
+}
+.button1-section .content{
+  margin-left: 30px;
+}
+.btn-text-right{
+	margin-left: 650px;
+}.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 30px;
+  align-items: start;
+  justify-items: center;
+  margin: auto;
+  width: 540px;
+  }
+.grid img {
+  border: 1px solid rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+  max-width: 100%;
+}
+.grid img:nth-child(2) {
+  grid-column: span 3;
+  grid-row: span 2;
+  }
+
+.gapp100{
+  padding: 70px 0px;
+
+}
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #111113;
+  color: white;
+}
+.fa-instagram {
+  background: #111113;
+  color: white;
+}
+hr.rounded {
+  border-top: 4px solid #bbb;
+  border-radius: 5px;
+}
+
+
+
+
+</style>
+      
+    <body>
+    
+      <section class="header section" >
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <span class="navbar-text text-white">
+        FREE SHIPPING FOR ALL ORDERS OF AED 150
+      </span>
+      <span class="col text-right text-white">
+        <a class="nav-link" href=""><i class="fa fa-phone" style="font-size:24px"></i>
+         +971 123 589652
+        </a>
+      </span>
+      <span class="text-white">
+        <a class="nav-link" href="">
+          LOCATIONS
+         </a>
+    </span>
+     </nav>
+     </section>
+     <section class="header section">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+          <a class="navbar-brand" href="#"><span class="text-warning"></span>
+          <img src="BRAND.jpg" alt="" width="145" height="95" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item pl-2 pr-3 active">
+                <a class="nav-link" href="#">Concepts <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item pl-2 pr-3">
+                <a class="nav-link" href="#">Brands</a>
+              </li>
+              <li class="nav-item pl-2 pr-3">
+                  <a class="nav-link" href="#">Category</a>
+                </li>
+                <li class="nav-item pl-2 pr-3">
+                  <a class="nav-link" href="#">Accessories</a>
+                </li>
+                <li class="nav-item pl-2 pr-3">
+                  <button type="button" class="btn btn-danger ">login</button>
+                </li>
+                <li class="nav-item pl-2 pr-3">
+                  <a class="nav-link" href="#">Register</a>
+                </li>
+                  <li class="nav-item pl-2 pr-3">     
+<a class="nav-link" href=""><i class="fa fa-fw fa-search"></i> </a>
+</li> 
+<li class="nav-item pl-2 pr-3">     
+  <a class="nav-link" href=""><i class="fa fa-fw fa-user"></i> </a>
+</li> 
+  <li class="nav-item pl-2 pr-3"> 
+    <a class="nav-link" href="#"><i class="fa fa-heart"></i></a>
+  </li>
+  <li class="nav-item pl-2 pr-3">
+    <a class="nav-link" href="#"><i class="fa fa-shopping-bag" style="font-size:24px"></i></a>
+  </li>
+  </ul>
+  </div>
+</section>
+
+<section class="frst-section" id="first-section">
+  <div class="content">
+    <span>Unbelievable low prices</span></br>
+  <h3>GLASSES FOR</h3>
+  <h2>MEN & WOMEN</h2></br>
+  <button type="button" class="btn btn-dark ">BUY NOW</button>
+</div>
+</section>
+
+<section class="second-section" id="second-section">
+  <div class="content1">
+    
+  <h3>WHAT WE’RE ABOUT</h3>
+  <h2>SEE THE WORLD <br>
+    DIFFRENTLY</h2></br>
+  <span>We make everyday life look and feel ten times 
+    better. How?<br>
+    Click on the links below to see for yourself</span></br><br>
+  <button type="button" class="btn btn-dark ">SHOP NOW</button>
+</div>
+</section>
+
+<section class="third-section ">
+  <div class="container">
+    <div class="row">
+<div class="card" style="width: 18rem ;">
+  <img class="card-img-top" src="m51.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text text-center font-weight-bold">10 YEARS VISION</p>
+    <p class="card-text text-center">Reminisce with us</p>
+  </div>
+</div>
+<div class="card " style="width: 18rem align-center;">
+  <img class="card-img-top" src="new m.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text text-center font-weight-bold">FIND THE BEST FIT FOR YOUR FACE</p>
+    <p class="card-text text-center">Take me to the guide</p>
+  </div>
+</div>
+</div>
+  </div>
+</section>
+<section class="about pt-5 pb-5 text-center">
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="bg-warning">PRODUCTS</h2>
+        <h3 class="fw-bolder">Featured Products</h3>
+        <p>For our ten-year anniversary, we're re-envisioning our best-selling styles</p></br>
+        </div>
+        <div class="row">
+        <div class="card" style=" width:18rem;">
+          <img src="lens.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Bayamo</h5><br><br><br><br><br><br><br>
+            <p class="card-text">AED 450</p><br>
+            <button type="button" class="btn btn-outline-warning">BUY NOW</button>
+          </div>
+        </div>
+        <div class="card" style=" width:18rem;">
+          <img src="L2.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Nefriyon</h5><br><br><br><br><br><br><br>
+          <p class="card-text">AED 296</p><br>
+          <button type="button" class="btn btn-outline-warning">BUY NOW</button>
+          </div>
+        </div>
+        <div class="card" style=" width:18rem;">
+          <img src="l6.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Trion</h5><br><br><br><br><br><br><br>
+         <p class="card-text">AED 890</p><br>
+         <button type="button" class="btn btn-outline-warning">BUY NOW</button>
+      </div>
+        </div>
+        <div class="card" style=" width:18rem;">
+          <img src="L4.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Akalio</h5><br><br><br><br><br><br><br>
+         <p class="card-text">AED 750</p><br>
+         <button type="button" class="btn btn-outline-warning">BUY NOW</button>
+          </div>
+        </div>
+  </div>
+  </div>
+</section>
+<section class="image-section" id="image-section">
+  <div class="row" >
+    <div style="width:100%;height:550px;">
+      
+      <div class="content3">
+        <h2>MODERN GLASSES<br>
+          TRUE MODERN CLASSIC</h2></br>
+        <h4>One morning, when Gregor Samsa woke<h4>
+          from troubled dreams, he found <br>
+          himself transformed in his bed into a <br>
+          horrible vermin. He lay on his armour-like</h3><br><br><br><br><br><br><br><br><br><br>
+      <button type="button" class="btn btn-outline-warning btn-lg">SHOP NOW</button>
+
+<button type="button" class="btn btn-outline-dark btn-lg">VIEW ALL</button>
+
+    </div>
+    </div>
+   </div>
+   
+</section>
+
+<section class="svnth-section" id="svnth-section">
+  <div class="container">
+<ul class="nav nav-pills nav-justified">
+  <li class="nav-item">
+    <a class="nav-link text-dark font-weight-bold" href="#">BEST MATERIALS<br>We make everyday life</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-dark font-weight-bold" href="#">CARL LENSES<br>We make everyday life</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-dark font-weight-bold" href="#">MODERN DESIGN<br>We make everyday life</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-dark font-weight-bold" href="#">ALL SIZES<br>We make everyday life</a>
+  </li>
+</ul><br>
+</div>
+</section>
+<section>
+  <div class="container">
+    <div class="row gapp100">
+     <div class="col-md-6">
+        <img src="new m.jpg" class="img-fluid" alt="laptop">
+      </div>
+      <div class="col-md-6">
+        <h3 class="bg-warning">WHY BUY</h3>
+        <h2>Why Buy Us?<br>Collections of 2023</h2><br>
+          <p><strong>We're an independent eyewear brand committed <br>
+            to creating high quality, handmade eyewear <br>
+            inspired by the people, places, and stories of<br> 
+            Dubai</strong></p><br><br>
+            <button type="button" class="btn btn-outline-warning btn-lg ">SHOP NOW</button>
+
+            <button type="button" class="btn btn-outline-dark btn-lg">VIEW ALL</button>
+      </div>
+    </div>
+  </div>
+ </section>
+
+<section class="button1-section pt-4 pb-4" id="button1-section">
+<div class="content">
+  <h1>Half price eye test and 10% of</h1>
+  <p>Save 20% upon presentation of your valid Eye Nation Extra card and Vision <br>
+    Express voucher</p>
+   
+      <button type="button" class="btn btn-dark">SHOW NOW</button>
+
+      
+  </div>
+</div>
+</section>
+<section class="grid-section" id="grid-section">
+    <main class="grid">
+      <img src="card model2.jpg" alt="Sample photo">
+      <img src="cardssection2.jpg" alt="Sample photo">
+      <img src="grid5.jpg" alt="Sample photo">
+    </div>
+</section>
+<section class="reviews pt-5 pb-5 text-center">
+  <div class="container">
+    <div class="row">
+      <div class=" col-lg-12">
+        <h2 class="bg-warning">EASY BUY</h2>
+        <h3 class=" font-weight-bold custom-font-h3 text-cente">Buy Easy Steps</h3>
+        <P>There are many variations of passages of Lorem Ipsum available, <br>
+          but the majority in some form, by injected of passages ofeven slightly believable</P>
+      </div>
+  </div>
+  </div>
+</section>
+<section class="imagestab-section">
+      <div class="card-group">
+        <div class="card bg-secondary">
+          <div class="card-body text-center text-white">
+            <h1>1</h1>
+            <h2>Search frame</h2>
+            <p class="card-text">There are many
+              variations of 
+              available</p>
+            
+          </div>
+        </div>
+        <div class="card bg-dark">
+          <div class="card-body text-center text-white">
+            <h1>1</h1>
+            <h2>virtual try-on</h2>
+            <p class="card-text">There are many
+              variations of 
+              available</p>
+          </div>
+        </div>
+        <div class="card bg-secondary">
+          <div class="card-body text-center text-white">
+            <h1>1</h1>
+            <h2>Easly checkout</h2>
+            <p class="card-text">There are many
+              variations of 
+              available</p>
+          </div>
+        </div>
+        <div class="card bg-dark">
+          <div class="card-body text-center text-white">
+            <h1>1</h1>
+            <h2>Reacive Glasses</h2>
+            <p class="card-text">There are many
+              variations of 
+              available</p>
+          </div>
+        </div>  
+      </div>
+    </div>
+    
+  </div>
+  </div>
+</section>
+<section class="topnav-section" id="topnav-section">
+    <nav class="navbar navbar-expand-sm bg-white navbar-dark">
+     <span class="navbar-text text-dark">
+         <h3 class="bg-warning">Services</h3>
+         <h1>Our services</h1>
+       </span>
+       <span class="col text-right text-dark">
+        </span>
+       <span class="text-dark font-weight-bolder ">
+        We're an independent eyewear brand committed <br>
+        to creating high quality, handmade eyewear
+     </span>
+      </nav>
+     </section>
+     <section>
+      <div class="container">
+      
+<div class="card-group">
+
+ 
+  <div class="card mb-4">
+
+   
+    <div class="view overlay">
+      <img class="card-img-top" src="a.jpg"
+        alt="Card image cap">
+        <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    
+    <div class="card-body bg-dark">
+<h4 class="card-title">Contact lenses</h4>
+      <p class="card-text">We're an independent 
+        eyewear brand committe</p>
+        
+    </div>
+   </div>
+  <div class="card mb-4">
+    <div class="view overlay">
+      <img class="card-img-top" src="a1.jfif"
+        alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <div class="card-body bg-dark">
+  
+      <h4 class="card-title">Eye glasses</h4>
+   
+      <p class="card-text">We're an independent 
+        eyewear brand committed</p>
+      
+    </div>
+   </div>
+  <div class="card mb-4">
+<div class="view overlay">
+      <img class="card-img-top" src="a2.avif"
+        alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <div class="card-body bg-dark">
+
+    
+      <h4 class="card-title">Eye exams</h4>
+    
+      <p class="card-text">We're an independent 
+        eyewear brand committed</p>
+      
+     
+
+    </div>
+
+  </div>
+
+</div>
+      </div>
+    </section>
+     <section class="images-section">
+    
+        <div class="card" style="background-size: cover;">
+          <img class="card-img-top" src="h1.jpg" alt="Card image">
+          <div class="card-img-overlay">
+            <h4 class="card-title text-dark">SPECIAL OFFER</h4>
+            <h1>Reading Glasses</h1>
+            <p class="card-text text-white">We're an independent eyewear brand committed to creating high quality, handmade eyewear.<br>
+              We're an independent eyewear to creating high quality, handmade eyewear We're an independent <br>
+              eyewear brand committed to creating high quality, handmade eyewear</p><br>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+     </section>
+     <section>
+      <div class="container">
+        <div class="row gapp100">
+         <div class="col-md-6">
+            <img src="M.jpeg" class="img-fluid" alt="laptop">
+          </div>
+          <div class="col-md-6">
+            <h3 class="bg-warning">FIND STORE</h3>
+            <h2>Find your Nearest Store </h2><br>
+              <p><strong> visit any of our stores<br>
+                located near you.<br>
+                With a state-of-the-art design that<br>
+                includes the latest equipment and an <br>
+                endless selection of optical products to<br> 
+                choose from</strong></p><br>
+                <button type="button" class="btn btn-outline-dark btn-lg ">SHOP NOW</button>
+
+                <button type="button" class="btn btn-outline-warning btn-lg">VIEW ALL</button>
+          </div>
+        </div>
+      </div>
+     </section>
+     <section>
+<div class="container" >
+  <video autoplay muted loop width="1120" height="710">
+    <source src="production ID_4435567.mp4" type="video/mp4">
+    
+
+  </video>
+  
+</div>
+</div>
+     </section>
+     <section>
+      <section>
+        <div class="container bg-warning">
+          <div class="row gapp100 ">
+
+           <div class="col-md-6">
+            <div class="container bg-dark" style="border-radius: 0px 50px 0px 0px;">
+              <h2 class="text-white">Great customer service!</h2>
+              <img src="R.jpg" alt="Avatar" style="width:90px">
+              <p class="text-white"><span >JAMES EDWARDS
+              </span>  business Owner</p>
+             
+              <p class="text-white"><strong> visit any of our 
+                stores located near you. With 
+                a state-of-the-art design that</strong></p>
+            </div>
+            </div>
+            <div class="col-md-6">
+              <h3>TESTIMONIALS</h3>
+              <h2>What Customers Are Saying </h2>
+                <p><strong> Conveniently visit any of our stores 
+                  located near you. With a state-of-the-art. 
+                  design that</strong></p>
+                  
+                  <button type="button" class="btn btn-outline-dark btn-lg">SHOP NOW</button>
+            </div>
+          </div>
+        </div>
+       </section>
+      
+     <section class="reviews pt-5 pb-5 text-center">
+      <div class="container">
+        <div class="row">
+          <div class=" col-lg-12">
+            <h2 class="bg-warning">BRANDS</h2>
+            <h3 class=" font-weight-bold custom-font-h3 text-cente">Our brands</h3>
+            </div>
+      </div>
+      </div>
+    </section>
+     <section class="brnd1 section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#"><span class="text-warning"></span>
+          <img src="KLIIK.png" alt="" width="145" height="95" alt=""></a>
+          <img src="fysh-logo.jpg" alt="" width="145" height="95" alt=""></a>
+          <img src="bolle.svg" alt="" width="145" height="95" alt=""></a>
+          <img src="Dolce-Gabbana-Logo.png" alt="" width="145" height="95" alt=""></a>
+          <img src="Serengeti.jpg" alt="" width="145" height="95" alt=""></a>
+          <img src="tura-logo.jpg" alt="" width="145" height="95" alt=""></a>
+        </nav>
+      </div>
+     </section>
+     <section class="">
+      
+      <footer class="bg-dark text-white">
+        
+        <div class="container p-4">
+          
+          <div class="row">
+           
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">CONTACT US</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">United Arab Emirates</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">+971 2569 78956,</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">+971 6985 69846</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">info@eyenation.com</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">MY ACCOUNT</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">The board</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Accessories</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">FAQs</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+           
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">SIGN UP TO OUR NEWSLETTER</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" placeholder="Enter your email address" id="form5Example21" class="form-control" />
+                    <p class=" text-white">FOLLOW US</p>  
+                <li>
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                </li>
+                 </ul>
+            </div>
+          </div>
+    
+        </div>
+    
+        <hr class= "rounded">
+        <footer class="bg-dark text-center text-lg-start">
+        
+          <div class="container p-4">
+           
+            <div class="row">
+              
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">HELP & SUPPORT</h5>
+        
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Contact us</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Returnd</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Orders</a>
+                  </li>
+                </ul>
+              </div>
+             
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-0">SHOPPING</h5>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" class="text-white">Sunglasses</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Eyeglasses</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Contact Lenses</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Accessories</a>
+                  </li>
+                </ul>
+              </div>
+             
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">INFORMATION</h5>
+        
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Store Locator</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Careers</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Information</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-0">SERVICES</h5>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" class="text-white">Frame size</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Buying Guide</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Eye Nation Group</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Virtual Try On</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+      <div class="text-center p-3" style="background-color:black;">
+          <a class="text-white" href="https://mdbootstrap.com/"> @ 2023 Eye Nation Group LLC.All Rights Reserved</a>
+        </div>
+        </footer>
+      </section>
+     
+      
+      </body>
+</html>
